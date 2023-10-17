@@ -1,8 +1,11 @@
 .pokemon-card{
     box-shadow:rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     border-radius: 10px;
+    display: none;
 }
-
+.pokemon-card.pokemon-card.open{
+    display: block;
+}
 .pokemon-card .card-top
 {
     padding: 30px 40px 0px;
@@ -86,25 +89,26 @@
 
 .fire-type
 {
-    background-color: red;
+    background-color: #ffbf69;
 }
 
 .water-type
 {
-    background-color: #7bdff2;
+    background-color: #5e7ce2;
 }
 
 .grass-type
 {
-    background-color: #40916c;
+    background-color: #bfd200;
 }
 
 .ghost-type
 {
-    background-color: #3c096c;
+    background-color: #bd68ee;
 }
 
 .dragon-type
 {
     background-color: #c1d3fe;
 }
+
